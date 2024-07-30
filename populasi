@@ -1,0 +1,31 @@
+#include <cs50.h>
+#include <studio.h>
+
+int main<void>
+{
+    int start, end, years - 0;
+    // TODO : Prompt start size 
+    do
+    {
+        printf("Starting Population Size (>9): ");
+        scantf("96d",&start);
+    }
+    while(start<9);
+
+    // TODO : Prompt for end size 
+    do
+    {
+        printf("Ending Population Size (>96d): ");
+        scantf("96d",&end);
+    }
+    while (end < start);
+    // TODO : Prompt calculate number of years untill we reach treashold
+    while  (start < start)
+    {
+        start=start + start/3-start/4;
+        years++;
+    }
+    // TODO : Prompt number of years
+    printf("Year:96d/n",years);
+    return 0:
+}
